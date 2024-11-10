@@ -6,6 +6,7 @@ import Verification from '../views/Verification';
 // import FabLayout from '../theme/layouts/FabLayout';
 import FabHome from '../views/FabHome';
 import FabPasscode from '../views/FabPasscode';
+import NotFound from '../views/NotFound';
 // import FabLayout from "../theme/layouts/FabLayout";
 
 export const routesList = [
@@ -27,10 +28,10 @@ export const routesList = [
 
   // { path: "401", element: <UnAuthorized /> },
   // { path: "403", element: <Forbidden /> },
-  // { path: "404", element: <NotFound /> },
+  { path: '404', element: <NotFound /> },
   // { path: "523", element: <AuthorizationExpired /> },
   // { path: "system-failure", element: <SystemFailure /> },
-  // { path: "*", element: <Navigate to="/404" /> },
+  { path: '*', element: <Navigate to="/404" /> },
   { path: '/', element: <Navigate to="/checkout" /> },
 ];
 
