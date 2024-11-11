@@ -22,16 +22,16 @@ const Verification = () => {
             <strong>Chappme Generate Code</strong>to generate a 6 digit
             authorization code which will be ussed below
           </p>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-4 text-4xl font-semibold">
             <div className="flex flex-1 items-center gap-2">
-              <input className="h-16 w-12 rounded-md bg-gray-100 p-4 outline-none"></input>
-              <input className="h-16 w-12 rounded-md bg-gray-100 p-4 outline-none"></input>
-              <input className="h-16 w-12 rounded-md bg-gray-100 p-4 outline-none"></input>
+              <input className="h-16 w-12 rounded-md bg-gray-100 p-2 text-center outline-none"></input>
+              <input className="h-16 w-12 rounded-md bg-gray-100 p-2 text-center outline-none"></input>
+              <input className="h-16 w-12 rounded-md bg-gray-100 p-2 text-center outline-none"></input>
             </div>
             <div className="flex flex-1 items-center gap-2">
-              <input className="h-16 w-12 rounded-md bg-gray-100 p-4 outline-none"></input>
-              <input className="h-16 w-12 rounded-md bg-gray-100 p-4 outline-none"></input>
-              <input className="h-16 w-12 rounded-md bg-gray-100 p-4 outline-none"></input>
+              <input className="h-16 w-12 rounded-md bg-gray-100 p-2 text-center outline-none"></input>
+              <input className="h-16 w-12 rounded-md bg-gray-100 p-2 text-center outline-none"></input>
+              <input className="h-16 w-12 rounded-md bg-gray-100 p-2 text-center outline-none"></input>
             </div>
           </div>
         </div>
