@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Dialpad from '../theme/components/Dialpad';
 import logoGreen from '../assets/logo-icon-green.svg';
 import logo from '../assets/logo-dark-green.svg';

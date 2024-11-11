@@ -1,4 +1,3 @@
-import React from 'react';
 import IphoneNavbar from '../theme/components/IphoneNavbar';
 import fabLogo from '../assets/csm_first-abu-dhabi-bank-uae_94b6f9f7c6 1.png';
 import logoGreen from '../assets/logo-icon-green.svg';
