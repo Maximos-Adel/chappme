@@ -1,8 +1,8 @@
-import IphoneNavbar from '../theme/components/IphoneNavbar';
-import bg from '../assets/shutterstock_1896950188 1.png';
-import fabLogo from '../assets/csm_first-abu-dhabi-bank-uae_94b6f9f7c6 1.png';
-import logoGreen from '../assets/logo-icon-green.svg';
-import logo from '../assets/logo-dark-green.svg';
+import IphoneNavbar from 'theme/components/IphoneNavbar';
+import bg from 'assets/shutterstock_1896950188 1.png';
+import fabLogo from 'assets/csm_first-abu-dhabi-bank-uae_94b6f9f7c6 1.png';
+import logoGreen from 'assets/logo-icon-green.svg';
+import logo from 'assets/logo-dark-green.svg';
 import { Link } from 'react-router-dom';
 
 const FabHome = () => {

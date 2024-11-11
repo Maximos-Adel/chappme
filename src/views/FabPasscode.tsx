@@ -1,6 +1,6 @@
-import IphoneNavbar from '../theme/components/IphoneNavbar';
-import fabLogo from '../assets/csm_first-abu-dhabi-bank-uae_94b6f9f7c6 1.png';
-import bg from '../assets/shutterstock_1896950188 1.png';
+import IphoneNavbar from 'theme/components/IphoneNavbar';
+import fabLogo from 'assets/csm_first-abu-dhabi-bank-uae_94b6f9f7c6 1.png';
+import bg from 'assets/shutterstock_1896950188 1.png';
 import { Link } from 'react-router-dom';
 
 const FabPasscode = () => {

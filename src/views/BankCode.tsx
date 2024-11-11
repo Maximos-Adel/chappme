@@ -1,7 +1,7 @@
-import IphoneNavbar from '../theme/components/IphoneNavbar';
-import fabLogo from '../assets/csm_first-abu-dhabi-bank-uae_94b6f9f7c6 1.png';
-import logoGreen from '../assets/logo-icon-green.svg';
-import logo from '../assets/logo-dark-green.svg';
+import IphoneNavbar from 'theme/components/IphoneNavbar';
+import fabLogo from 'assets/csm_first-abu-dhabi-bank-uae_94b6f9f7c6 1.png';
+import logoGreen from 'assets/logo-icon-green.svg';
+import logo from 'assets/logo-dark-green.svg';
 import { useNavigate } from 'react-router-dom';
 
 const BankCode = () => {

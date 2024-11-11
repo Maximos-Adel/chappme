@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import credit from '../assets/Group 7.svg';
-import paypal from '../assets/paypal-p-svgrepo-com 1.svg';
-import chappme from '../assets/logo-icon-green.svg';
-import RadioInput from '../theme/components/RadioInput';
+import credit from 'assets/Group 7.svg';
+import paypal from 'assets/paypal-p-svgrepo-com 1.svg';
+import chappme from 'assets/logo-icon-green.svg';
 import { useNavigate } from 'react-router-dom';
+import RadioInput from 'theme/components/RadioInput';
 
 const Checkout = () => {
   const navigate = useNavigate();

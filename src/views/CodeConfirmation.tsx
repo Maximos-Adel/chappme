@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
-import Dialpad from '../theme/components/Dialpad';
-import logoGreen from '../assets/logo-icon-green.svg';
-import logo from '../assets/logo-dark-green.svg';
-import loader from '../assets/loader.svg';
+import Dialpad from 'theme/components/Dialpad';
+import logoGreen from 'assets/logo-icon-green.svg';
+import logo from 'assets/logo-dark-green.svg';
+import loader from 'assets/loader.svg';
 import { useNavigate } from 'react-router-dom';
 
 const CodeConfirmation = () => {

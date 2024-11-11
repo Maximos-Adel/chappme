@@ -1,5 +1,5 @@
-import check from '../assets/green-check-mark-verified-circle-16223.svg';
-import headphone from '../assets/Screenshot 2024-10-30 at 2.06.59 PM 1.png';
+import check from 'assets/green-check-mark-verified-circle-16223.svg';
+import headphone from 'assets/Screenshot 2024-10-30 at 2.06.59 PM 1.png';
 const OrderComplete = () => {
   return (
     <>

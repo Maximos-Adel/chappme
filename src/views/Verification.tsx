@@ -1,7 +1,7 @@
-import logoGreen from '../assets/logo-icon-green.svg';
-import logo from '../assets/logo-dark-green.svg';
-import Dialpad from '../theme/components/Dialpad';
 import { useNavigate } from 'react-router-dom';
+import logoGreen from 'assets/logo-icon-green.svg';
+import logo from 'assets/logo-dark-green.svg';
+import Dialpad from 'theme/components/Dialpad';
 
 const Verification = () => {
   const navigate = useNavigate();
