@@ -16,7 +16,7 @@ const FabPasscode = () => {
           (key) => (
             <button
               key={key}
-              className="flex h-24 w-20 items-center justify-center rounded bg-[#071c4b] text-5xl text-white shadow-md"
+              className="flex h-20 w-20 items-center justify-center rounded bg-[#071c4b] text-5xl text-white shadow-md"
             >
               {key}
             </button>

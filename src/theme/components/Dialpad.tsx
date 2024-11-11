@@ -1,6 +1,6 @@
 const Dialpad = () => {
   return (
-    <div className="mt-auto grid grid-cols-3 gap-2 bg-gray-300 p-4">
+    <div className="mt-auto grid grid-cols-3 gap-2 bg-gray-300 p-2">
       <button className="flex h-14 flex-col items-center justify-center rounded-lg bg-white p-4 shadow hover:bg-gray-100">
         <span className="text-2xl font-medium">1</span>
         <span className="text-xs font-light text-gray-500">&nbsp;</span>

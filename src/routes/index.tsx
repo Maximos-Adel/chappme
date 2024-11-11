@@ -6,6 +6,8 @@ import Verification from '../views/Verification';
 import FabHome from '../views/FabHome';
 import FabPasscode from '../views/FabPasscode';
 import NotFound from '../views/NotFound';
+import CodeConfirmation from '../views/CodeConfirmation';
+import PasscodeVerification from '../views/PasscodeVerification';
 
 export const routesList = [
   {
@@ -13,6 +15,7 @@ export const routesList = [
     children: [
       { path: 'checkout', element: <Checkout /> },
       { path: 'chappme-verification', element: <Verification /> },
+      { path: 'code-confirmation', element: <CodeConfirmation /> },
     ],
   },
   {
@@ -23,7 +26,10 @@ export const routesList = [
     path: 'fab-passcode',
     element: <FabPasscode />,
   },
-
+  {
+    path: 'passcode-verification',
+    element: <PasscodeVerification />,
+  },
   // { path: "401", element: <UnAuthorized /> },
   // { path: "403", element: <Forbidden /> },
   { path: '404', element: <NotFound /> },
