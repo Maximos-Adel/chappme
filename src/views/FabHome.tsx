@@ -12,14 +12,14 @@ const FabHome = () => {
       style={{ backgroundImage: `url(${bg})` }}
     >
       <IphoneNavbar />
-      <img src={fabLogo} className="mx-auto mt-10 w-32" />
+      <img src={fabLogo} className="mx-auto mt-10 w-32" alt="logo" />
 
       <button className="mx-auto mt-[26rem] w-11/12 rounded-xl rounded-bl-none rounded-tr-none bg-blue-100 p-3 text-[#1e1e84]">
         FAB Login
       </button>
       <button className="mx-auto mb-2 mt-28 flex items-center rounded-lg bg-white p-2">
-        <img src={logoGreen} className="h-8 w-8" />
-        <img src={logo} />
+        <img src={logoGreen} className="h-8 w-8" alt="logo" />
+        <img src={logo} alt="logo" />
       </button>
       <Link to="/fab-passcode" className="text-center text-white">
         Generate Code

@@ -9,11 +9,11 @@ const BankCode = () => {
   return (
     <div className="flex h-screen w-[402px] flex-col bg-[#0e52bb]">
       <IphoneNavbar />
-      <img src={fabLogo} className="w-20" />
+      <img src={fabLogo} className="w-20" alt="logo" />
       <div className="mt-2 flex flex-1 flex-col items-center gap-5 bg-[#eeeeee] pt-5">
         <div className="flex">
-          <img src={logoGreen} className="h-12 w-12" />
-          <img src={logo} />
+          <img src={logoGreen} className="h-12 w-12" alt="logo" />
+          <img src={logo} alt="logo" />
         </div>
         <p className="px-4 text-center text-gray-500">
           Provide the 6 digit Chappme code below to authenticate the transaction

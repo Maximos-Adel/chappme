@@ -10,7 +10,7 @@ const FabPasscode = () => {
       style={{ backgroundImage: `url(${bg})` }}
     >
       <IphoneNavbar />
-      <img src={fabLogo} className="mx-auto mt-10 w-32" />
+      <img src={fabLogo} className="mx-auto mt-10 w-32" alt="logo" />
 
       <div className="mx-auto mt-20 grid w-8/12 grid-cols-3 gap-4">
         {['1', '2', '3', '4', '5', '6', '7', '8', '9', '*', '0', '#'].map(

@@ -5,7 +5,7 @@ const OrderComplete = () => {
     <>
       <p className="w-full bg-white px-4 py-2">Order Complete</p>
       <div className="mt-6 flex flex-col items-center gap-2">
-        <img src={check} className="w-12" />
+        <img src={check} className="w-12" alt="check" />
         <p className="font-semibold">Thank You!</p>
         <p className="text-sm">Your order has been placed successfully</p>
       </div>
@@ -17,7 +17,7 @@ const OrderComplete = () => {
             Black
           </p>
         </div>
-        <img src={headphone} />
+        <img src={headphone} alt="headphone" />
       </div>
 
       <div className="mt-4 flex flex-col p-4">

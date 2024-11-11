@@ -10,9 +10,13 @@ const IphoneNavbar = ({ bgColor }: { bgColor?: string }) => {
       </div>
 
       <div className="flex w-1/3 flex-1 items-center justify-center gap-2">
-        <img src={signal} className="h-4 w-4 scale-x-[-1] transform" />
-        <img src={wifi} className="h-5 w-5" />
-        <img src={battery} className="h-7 w-7" />
+        <img
+          src={signal}
+          className="h-4 w-4 scale-x-[-1] transform"
+          alt="signal"
+        />
+        <img src={wifi} className="h-5 w-5" alt="wifi" />
+        <img src={battery} className="h-7 w-7" alt="battery" />
       </div>
     </div>
   );

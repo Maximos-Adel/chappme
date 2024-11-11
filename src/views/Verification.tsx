@@ -14,8 +14,8 @@ const Verification = () => {
       >
         <div className="flex w-11/12 flex-col items-center justify-center gap-4 bg-white p-4">
           <div className="flex">
-            <img src={logoGreen} className="h-12 w-12" />
-            <img src={logo} />
+            <img src={logoGreen} className="h-12 w-12" alt="logo" />
+            <img src={logo} alt="check" />
           </div>
           <p className="text-center text-sm">
             Login to your bank institution app using the{' '}

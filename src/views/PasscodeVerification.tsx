@@ -25,8 +25,8 @@ const PasscodeVerification = () => {
       <img src={fabLogo} className="w-20" />
       <div className="flex flex-1 flex-col items-center gap-5 bg-[#eeeeee]">
         <div className="mt-5 flex">
-          <img src={logoGreen} className="h-12 w-12" />
-          <img src={logo} />
+          <img src={logoGreen} className="h-12 w-12" alt="logo" />
+          <img src={logo} alt="logo" />
         </div>
         <p className="text-xl font-semibold text-red-500">
           Payment Confirmation
@@ -83,7 +83,7 @@ const PasscodeVerification = () => {
           </form>
         ) : state === 2 ? (
           <div className="mt-4 flex flex-col items-center gap-2">
-            <img src={check} className="w-12" />
+            <img src={check} className="w-12" alt="check" />
             <p className="font-semibold">Payment Successful</p>
             <p className="text-sm">
               you will now be redirected to the merchant store

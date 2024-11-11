@@ -21,7 +21,7 @@ const RadioInput = ({
           htmlFor={label}
           className="ml-2 flex items-center gap-2 font-light"
         >
-          <img src={icon} className="h-4 w-4" />
+          <img src={icon} className="h-4 w-4" alt="icon" />
           {label}
         </label>
       </div>
