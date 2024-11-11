@@ -14,10 +14,6 @@ const Checkout = () => {
     setSelectedOption(e.target.value);
   };
 
-  // const convertToKebabCase = (str: string) => {
-  //   return '/' + str.toLowerCase().split(' ').join('-');
-  // };
-
   const options = [
     {
       label: 'Credit Card',

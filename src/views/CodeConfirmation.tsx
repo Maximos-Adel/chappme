@@ -12,10 +12,9 @@ const CodeConfirmation = () => {
   useEffect(() => {
     if (state === 2) {
       const timer = setTimeout(() => {
-        navigate('/passcode-verification'); // Replace '/target-page' with your desired route
-      }, 2000); // 3 seconds delay
+        navigate('/passcode-verification');
+      }, 1000);
 
-      // Clean up the timer if the component unmounts or state changes
       return () => clearTimeout(timer);
     }
   }, [state, navigate]);
