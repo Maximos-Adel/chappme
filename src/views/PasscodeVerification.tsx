@@ -12,8 +12,8 @@ const PasscodeVerification = () => {
   useEffect(() => {
     if (state === 2) {
       const timer = setTimeout(() => {
-        navigate('/checkout'); // Replace '/target-page' with your desired route
-      }, 3000); // 3 seconds delay
+        navigate('/order-complete'); // Replace '/target-page' with your desired route
+      }, 2000); // 3 seconds delay
 
       // Clean up the timer if the component unmounts or state changes
       return () => clearTimeout(timer);

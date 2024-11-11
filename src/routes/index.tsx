@@ -8,6 +8,8 @@ import FabPasscode from '../views/FabPasscode';
 import NotFound from '../views/NotFound';
 import CodeConfirmation from '../views/CodeConfirmation';
 import PasscodeVerification from '../views/PasscodeVerification';
+import OrderComplete from '../views/OrderComplete';
+import BankCode from '../views/BankCode';
 
 export const routesList = [
   {
@@ -16,6 +18,8 @@ export const routesList = [
       { path: 'checkout', element: <Checkout /> },
       { path: 'chappme-verification', element: <Verification /> },
       { path: 'code-confirmation', element: <CodeConfirmation /> },
+      { path: 'code-confirmation', element: <CodeConfirmation /> },
+      { path: 'order-complete', element: <OrderComplete /> },
     ],
   },
   {
@@ -30,6 +34,7 @@ export const routesList = [
     path: 'passcode-verification',
     element: <PasscodeVerification />,
   },
+  { path: 'bank-code', element: <BankCode /> },
   // { path: "401", element: <UnAuthorized /> },
   // { path: "403", element: <Forbidden /> },
   { path: '404', element: <NotFound /> },

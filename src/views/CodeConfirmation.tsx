@@ -1,11 +1,25 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Dialpad from '../theme/components/Dialpad';
 import logoGreen from '../assets/logo-icon-green.svg';
 import logo from '../assets/logo-dark-green.svg';
 import loader from '../assets/loader.svg';
+import { useNavigate } from 'react-router-dom';
 
 const CodeConfirmation = () => {
   const [state, setState] = useState<number>(1);
+
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (state === 2) {
+      const timer = setTimeout(() => {
+        navigate('/passcode-verification'); // Replace '/target-page' with your desired route
+      }, 2000); // 3 seconds delay
+
+      // Clean up the timer if the component unmounts or state changes
+      return () => clearTimeout(timer);
+    }
+  }, [state, navigate]);
+
   return (
     <>
       <p className="w-full bg-white px-4 py-2">Chappme Code</p>
@@ -21,9 +35,8 @@ const CodeConfirmation = () => {
                 <img src={logo} />
               </div>
               <p className="text-center text-sm">
-                Login to your bank institution app using the{' '}
-                <strong>Chappme Generate Code</strong>to generate a 6 digit
-                authorization code which will be ussed below
+                Provide the Chappme 6 digit code below from your bank
+                insitituation app or online banking
               </p>
               <div className="flex items-center gap-4 text-4xl font-semibold">
                 <div className="flex flex-1 items-center gap-2">
