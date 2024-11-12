@@ -35,11 +35,9 @@ export const routesList = [
     element: <PasscodeVerification />,
   },
   { path: 'bank-code', element: <BankCode /> },
-  // { path: "401", element: <UnAuthorized /> },
-  // { path: "403", element: <Forbidden /> },
+
   { path: '404', element: <NotFound /> },
-  // { path: "523", element: <AuthorizationExpired /> },
-  // { path: "system-failure", element: <SystemFailure /> },
+
   { path: '*', element: <Navigate to="/404" /> },
   { path: '/', element: <Navigate to="/checkout" /> },
 ];
